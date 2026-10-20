@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 72" role="img" aria-label="nivellcat">
+    <style>
+        .bubble { fill: #1d6b63; }
+        .bar { fill: #fffefb; }
+        .spark { fill: #e8743b; }
+        .word { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif; font-weight: 700; font-size: 44px; letter-spacing: -0.5px; fill: #1f2a30; }
+        .cat { fill: #c4511f; }
+        @media (prefers-color-scheme: dark) {
+            .bubble { fill: #5fc4b5; }
+            .bar { fill: #161412; }
+            .spark { fill: #f08a55; }
+            .word { fill: #efe9df; }
+            .cat { fill: #f08a55; }
+        }
+    </style>
+
+    <!-- Hand-drawn speech bubble with rising level bars -->
+    <g transform="rotate(-5 35 36)">
+        <path class="bubble" d="M15 7 C28 4.5 44 5.5 55.5 6 C63 6.8 67.2 12 66.4 20 L66.8 42 C66.4 50.8 61 56 53 56.6 L33.5 57.2 L18.5 67.8 L20.8 57 L14.2 56.5 C7 56 3.2 51 3.6 43 L3.1 19.5 C3.6 11.2 8 7.6 15 7 Z"/>
+        <rect class="bar" x="17" y="36.5" width="9" height="10.5" rx="2.5"/>
+        <rect class="bar" x="30.2" y="27" width="9" height="20" rx="2.5"/>
+        <rect class="spark" x="43.4" y="16.5" width="9" height="30.5" rx="2.5"/>
+    </g>
+
+    <text class="word" x="80" y="51">nivell<tspan class="cat">cat</tspan></text>
+</svg>

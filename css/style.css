@@ -472,6 +472,13 @@ main {
     margin-bottom: var(--spacing-md);
 }
 
+.section ul {
+    margin-bottom: var(--spacing-lg);
+    padding-left: 1.25rem;
+    max-width: 42rem;
+    color: var(--text-secondary);
+}
+
 .section > p {
     max-width: 42rem;
 }
